@@ -108,7 +108,7 @@ export default function Home() {
 
         <section className="home_section relative flex items-center justify-center  px-20 pt-50 xl:pt-20">
           {/* barcode – pinned left */}
-          <div className="absolute left-8 xl:left-20 top-1/2 -translate-y-1/2 pt-60 xl:pt-20">
+          <div className="absolute left-8 xl:left-20 top-1/2 -translate-y-1/2 pt-55 xl:pt-20">
             <Image src="/images/barcode.png" alt="bar" width={10} height={10} />
           </div>
 
@@ -126,9 +126,7 @@ export default function Home() {
 
               {/* overlay text */}
               <div className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none">
-                <p className="mb-1 gradient-text-white-gray">
-                  Hi, I’m Emmanuel
-                </p>
+                <p className="mb-1">Hi, I’m Emmanuel</p>
                 <h1 className="text-1xl md:text-2xl">
                   <Typewriter
                     onInit={(typewriter) => {
