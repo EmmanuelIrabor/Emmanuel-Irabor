@@ -1,0 +1,15 @@
+$color-black: #000000;
+$color-charcoal: #333333;
+$color-dark-gray: #1e1e1e;
+
+$color-gray: #999999;
+
+$color-white: #ffffff;
+
+$color-accent-cyan: #00ffd9;
+
+.gradient-text-white-gray {
+  background: linear-gradient(to right, $color-white, $color-gray);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

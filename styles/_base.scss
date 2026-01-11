@@ -1,0 +1,62 @@
+@import "mixins";
+@import "colors";
+@import "fonts";
+
+html,
+body {
+  font-family: "Saira", system-ui, sans-serif;
+  background-color: $color-black;
+  color: $color-white;
+}
+.dud {
+  opacity: 0.4;
+}
+
+.typewriter {
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.typewriter .text {
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+  animation: typing 3.5s steps(40, end) forwards;
+}
+
+.typewriter::after {
+  content: "";
+  display: inline-block;
+  width: 0.1em;
+  height: 1em;
+  background-color: $color-white;
+  animation: blink-caret 0.75s step-end infinite;
+  margin-left: 2px;
+  vertical-align: bottom;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+/* After animation completes, allow wrapping */
+.typewriter .text.completed {
+  white-space: normal;
+  width: auto;
+}
