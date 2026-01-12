@@ -55,8 +55,70 @@ body {
   }
 }
 
-/* After animation completes, allow wrapping */
 .typewriter .text.completed {
   white-space: normal;
   width: auto;
+}
+
+.marquee-wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.big-marquee {
+  font-size: 100px;
+  white-space: nowrap;
+  will-change: transform;
+  cursor: pointer;
+
+  &:hover {
+    animation-play-state: paused;
+    background: linear-gradient(to right, #a5efff, #eabfff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  @include respond(sm) {
+    font-size: 50px;
+  }
+
+  @include respond(xs) {
+    font-size: 40px;
+  }
+}
+
+.marquee-track {
+  display: inline-block;
+  padding-left: 100%;
+  animation: marquee-scroll 20s linear infinite;
+}
+
+/* Keyframes */
+@keyframes marquee-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.img_marquee {
+  width: 100%;
+  overflow: hidden;
+}
+
+.img_marquee-track {
+  display: flex;
+  width: max-content;
+  animation: img-marquee-scroll 20s linear infinite;
+}
+
+@keyframes img-marquee-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }

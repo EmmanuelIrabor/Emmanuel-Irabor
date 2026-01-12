@@ -23,14 +23,14 @@ export default function Navbar() {
           <Link href="/Home" className="navbar_item">
             Home
           </Link>
-          <Link href="/Home" className="navbar_item">
+          <Link href="/About" className="navbar_item">
             About
           </Link>
           <Link href="/Home" className="navbar_item">
-            Work
+            Skills
           </Link>
           <Link href="/Home" className="navbar_item">
-            Skills
+            Works
           </Link>
           <Link href="/Home" className="navbar_item">
             <div className="flex items-center gap-1">
@@ -87,14 +87,6 @@ export default function Navbar() {
                 </Link>
 
                 <Link
-                  href="/Work"
-                  className="navbar_item"
-                  onClick={() => setMenuOpen(false)}
-                >
-                  Work
-                </Link>
-
-                <Link
                   href="/Skills"
                   className="navbar_item"
                   onClick={() => setMenuOpen(false)}
@@ -103,11 +95,21 @@ export default function Navbar() {
                 </Link>
 
                 <Link
+                  href="/Work"
+                  className="navbar_item"
+                  onClick={() => setMenuOpen(false)}
+                >
+                  Works
+                </Link>
+
+                <Link
                   href="/Contact"
                   className="navbar_item"
                   onClick={() => setMenuOpen(false)}
                 >
-                  Contact
+                  <div className="flex items-center gap-1">
+                    Contact <ArrowUpRight />
+                  </div>
                 </Link>
               </div>
             </div>

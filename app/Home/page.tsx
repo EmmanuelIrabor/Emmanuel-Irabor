@@ -158,7 +158,7 @@ export default function Home() {
           </div>
 
           <div>
-            <Link className="btn-primary" href={""}>
+            <Link className="btn-primary" href={"/About"}>
               NEXT
             </Link>
           </div>
