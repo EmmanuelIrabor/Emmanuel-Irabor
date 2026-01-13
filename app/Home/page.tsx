@@ -109,7 +109,12 @@ export default function Home() {
         <section className="home_section relative flex items-center justify-center  px-20 pt-50 xl:pt-20">
           {/* barcode – pinned left */}
           <div className="absolute left-8 xl:left-20 top-1/2 -translate-y-1/2 pt-55 xl:pt-20">
-            <Image src="/images/barcode.png" alt="bar" width={10} height={10} />
+            <Image
+              src="/images/barcodex.png"
+              alt="bar"
+              width={10}
+              height={10}
+            />
           </div>
 
           {/* center content */}

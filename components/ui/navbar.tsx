@@ -26,7 +26,7 @@ export default function Navbar() {
           <Link href="/About" className="navbar_item">
             About
           </Link>
-          <Link href="/Home" className="navbar_item">
+          <Link href="/Skills" className="navbar_item">
             Skills
           </Link>
           <Link href="/Home" className="navbar_item">

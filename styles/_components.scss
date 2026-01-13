@@ -1,0 +1,22 @@
+.skill_card {
+  // background-image: url("/images/skill_card.png");
+
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  cursor: pointer;
+
+  // &:hover {
+  //   padding-left: 30px;
+  //   padding-right: 30px;
+  //   padding-top: 35px;
+  //   padding-bottom: 35px;
+  //   transition: all 0.4s ease-in-out;
+  // }
+}
+.gradient-border {
+  border: 2px solid transparent;
+  background: linear-gradient(#0b0b0b, #0b0b0b) padding-box,
+    linear-gradient(90deg, #a5efff, #eabfff) border-box;
+}

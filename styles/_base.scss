@@ -122,3 +122,20 @@ body {
     transform: translateX(-50%);
   }
 }
+
+.dotted-line {
+  border: none;
+  border-top: 1px dotted $color-white;
+  width: 100%;
+}
+.technologies--gradient {
+  color: $color-white;
+  cursor: pointer;
+
+  &:hover {
+    background: linear-gradient(90deg, #a5efff, #eabfff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+}

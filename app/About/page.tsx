@@ -257,7 +257,7 @@ export default function About() {
 
         <div className=" w-full px-5 xl:px-20 py-10 bg-transparent flex items-center justify-center xl:justify-end">
           <div>
-            <Link className="btn-primary" href={"/About"}>
+            <Link className="btn-primary" href={"/Skills"}>
               SKILLS
             </Link>
           </div>

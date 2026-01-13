@@ -13,3 +13,10 @@ $color-accent-cyan: #00ffd9;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.mix-grd {
+  background: linear-gradient(90deg, #a5efff, #eabfff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
