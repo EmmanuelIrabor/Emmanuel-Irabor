@@ -293,14 +293,11 @@ export default function Works() {
             </AccordionItem>
             <AccordionItem value="item-4">
               <AccordionTrigger className="cursor-pointer technologies--gradient">
-                Ride The Flo
+                Ride The Flo is a brand dedicated to documenting Afro Culture
+                and modern Artsists.
               </AccordionTrigger>
               <AccordionContent className="flex flex-col gap-4 text-balance">
-                <p>
-                  We stand behind our products with a comprehensive 30-day
-                  return policy. If you&apos;re not completely satisfied, simply
-                  return the item in its original condition.
-                </p>
+                <p>Ride the flo</p>
                 <div className="flex flex-col md:flex-row items-center gap-2">
                   <Image
                     src="/images/projects/rtf_one.png"
