@@ -1,7 +1,7 @@
 "use client";
 import { motion, AnimatePresence } from "framer-motion";
 import { useEffect, useState } from "react";
-import Navbar from "@/components/ui/navbar";
+import Navbar from "@/components/navbar";
 import Image from "next/image";
 import Typewriter from "typewriter-effect";
 import Link from "next/link";
@@ -123,8 +123,8 @@ export default function About() {
             <Image
               src="/images/head.gif"
               alt="blob GIF"
-              width={800}
-              height={800}
+              width={1000}
+              height={1000}
               className="object-contain"
               priority
             />

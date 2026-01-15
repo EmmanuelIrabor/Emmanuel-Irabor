@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import Navbar from "@/components/ui/navbar";
+import Navbar from "@/components/navbar";
 import Image from "next/image";
 import Typewriter from "typewriter-effect";
 import Link from "next/link";
