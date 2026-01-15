@@ -180,7 +180,10 @@ export default function Works() {
                   />
                 </div>
                 <div>
-                  <Link className="text-cyan flex items-center gap-1" href={""}>
+                  <Link
+                    className="text-cyan flex items-center gap-1"
+                    href={"https://divinity-scarfs.vercel.app/"}
+                  >
                     Visit <LinkSimple />
                   </Link>
                 </div>
@@ -232,7 +235,10 @@ export default function Works() {
                   />
                 </div>
                 <div>
-                  <Link className="text-cyan flex items-center gap-1" href={""}>
+                  <Link
+                    className="text-cyan flex items-center gap-1"
+                    href={"https://divinity-scarfs.vercel.app/"}
+                  >
                     Visit <LinkSimple />
                   </Link>
                 </div>
@@ -337,7 +343,10 @@ export default function Works() {
                   />
                 </div>
                 <div>
-                  <Link className="text-cyan flex items-center gap-1" href={""}>
+                  <Link
+                    className="text-cyan flex items-center gap-1"
+                    href={"https://courageous-squirrel-0922a4.netlify.app/"}
+                  >
                     Visit <LinkSimple />
                   </Link>
                 </div>
@@ -390,7 +399,10 @@ export default function Works() {
                   />
                 </div>
                 <div>
-                  <Link className="text-cyan flex items-center gap-1" href={""}>
+                  <Link
+                    className="text-cyan flex items-center gap-1"
+                    href={"https://opendiscussion.space/"}
+                  >
                     Visit <LinkSimple />
                   </Link>
                 </div>
@@ -442,7 +454,12 @@ export default function Works() {
                   />
                 </div>
                 <div>
-                  <Link className="text-cyan flex items-center gap-1" href={""}>
+                  <Link
+                    className="text-cyan flex items-center gap-1"
+                    href={
+                      "https://www.figma.com/design/9rRVJTNlPwP5N3IXQfLmPj/Duel-Domain?node-id=0-1&p=f&t=NFvkPMPKtBzkErpl-0"
+                    }
+                  >
                     Visit <LinkSimple />
                   </Link>
                 </div>
@@ -493,7 +510,10 @@ export default function Works() {
                 </div>
                 <div className="flex flex-col md:flex-row items-center gap-2"></div>
                 <div>
-                  <Link className="text-cyan flex items-center gap-1" href={""}>
+                  <Link
+                    className="text-cyan flex items-center gap-1"
+                    href={"https://github.com/EmmanuelIrabor/Fido-Ride-App"}
+                  >
                     Visit <LinkSimple />
                   </Link>
                 </div>
@@ -542,7 +562,12 @@ export default function Works() {
                   />
                 </div>
                 <div>
-                  <Link className="text-cyan flex items-center gap-1" href={""}>
+                  <Link
+                    className="text-cyan flex items-center gap-1"
+                    href={
+                      "https://www.figma.com/design/LARUos8XHZEdC6tuEVCePX/Deus"
+                    }
+                  >
                     Visit <LinkSimple />
                   </Link>
                 </div>
@@ -594,7 +619,12 @@ export default function Works() {
                   />
                 </div>
                 <div>
-                  <Link className="text-cyan flex items-center gap-1" href={""}>
+                  <Link
+                    className="text-cyan flex items-center gap-1"
+                    href={
+                      "https://www.figma.com/design/FFA4D8DHSA7WtCZkfVoGIo/knight?t=3WEavliBAdFnmbvK-0"
+                    }
+                  >
                     Visit <LinkSimple />
                   </Link>
                 </div>
@@ -646,7 +676,10 @@ export default function Works() {
                   />
                 </div>
                 <div>
-                  <Link className="text-cyan flex items-center gap-1" href={""}>
+                  <Link
+                    className="text-cyan flex items-center gap-1"
+                    href={"https://viprecords.org/"}
+                  >
                     Visit <LinkSimple />
                   </Link>
                 </div>
@@ -697,7 +730,12 @@ export default function Works() {
                   />
                 </div>
                 <div>
-                  <Link className="text-cyan flex items-center gap-1" href={""}>
+                  <Link
+                    className="text-cyan flex items-center gap-1"
+                    href={
+                      "https://www.figma.com/proto/DiCzFh6bQK6dDZIMp7wEDT/RiskSafetymanagementApp?node-id=5-63"
+                    }
+                  >
                     Visit <LinkSimple />
                   </Link>
                 </div>
@@ -749,7 +787,12 @@ export default function Works() {
                 </div>
                 <div className="flex flex-col md:flex-row items-center gap-2"></div>
                 <div>
-                  <Link className="text-cyan flex items-center gap-1" href={""}>
+                  <Link
+                    className="text-cyan flex items-center gap-1"
+                    href={
+                      "https://figma.com/design/Mj52W6Nqk3YxfEStuyAxjY/Echelon?t=uK1q13eavZRa6aQE-0"
+                    }
+                  >
                     Visit <LinkSimple />
                   </Link>
                 </div>
@@ -801,7 +844,12 @@ export default function Works() {
                   />
                 </div>
                 <div>
-                  <Link className="text-cyan flex items-center gap-1" href={""}>
+                  <Link
+                    className="text-cyan flex items-center gap-1"
+                    href={
+                      "https://figma.com/design/7sYlu4WyreD7ADhbHTORMT/yellow?t=a8WgSKhIHkChQtlE-0"
+                    }
+                  >
                     Visit <LinkSimple />
                   </Link>
                 </div>

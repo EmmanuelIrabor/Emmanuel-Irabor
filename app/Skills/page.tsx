@@ -148,37 +148,41 @@ export default function Skills() {
           >
             <div className="flex-shrink-0 w-full flex flex-col xl:flex-row gap-10">
               <SkillCard
-                title="UiUx Design"
-                description="lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                title="UI/UX Design"
+                description="I design user interfaces and experiences with a strong focus on usability, clarity, and visual consistency across products. My process includes wireframing, prototyping, defining user journeys, and translating product requirements into structured interface layouts. I work with typography, spacing, color systems, and interaction patterns to ensure designs are intuitive and accessible. I also collaborate closely with development workflows to ensure designs are practical to implement, scalable, and aligned with overall product goals and user expectations."
                 icon={<PencilCircle className="text-[#eabfff]" />}
               />
+
               <SkillCard
                 title="Frontend Architecture"
-                description="lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                description="I design and structure frontend applications with an emphasis on scalability, performance, and maintainability. My work involves organizing component systems, managing state, defining data flow, and establishing clear project structures for long-term growth. I focus on building reusable components, optimizing rendering performance, and ensuring consistent behavior across browsers and devices. This approach helps keep applications easy to extend, debug, and evolve as product requirements change."
                 icon={<FileCode className="text-[#eabfff]" />}
               />
+
               <SkillCard
                 title="Backend Development"
-                description="lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                description="I build and maintain backend systems that handle application logic, data processing, and server-side operations. My work includes designing APIs, managing databases, implementing authentication and authorization, and ensuring reliable data flow between services. I focus on writing secure, efficient, and maintainable code while supporting scalability and performance. This allows applications to remain stable under load and adaptable as features and requirements grow."
                 icon={<Scroll className="text-[#eabfff]" />}
               />
             </div>
 
-            <div className="flex-shrink-0 w-full flex flex-col xl:flex-row gap-10 xl:ml-18">
+            <div className="flex-shrink-0 w-full flex flex-col xl:flex-row gap-10 xl:ml-17">
               <SkillCard
                 title="System Design"
-                description="lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                description="I design and structure complex systems to ensure scalability, reliability, and maintainability. This involves defining system components, service interactions, data flow, and integration patterns to meet both functional and non-functional requirements. I focus on creating architectures that are modular, easy to extend, and resilient under load, while balancing performance, security, and operational efficiency. My designs aim to support long-term growth and simplify collaboration across development teams."
                 icon={<Wall className="text-[#eabfff]" />}
               />
-              <SkillCard
-                title="Ai&Ml"
-                description="lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-                icon={<Robot className="text-[#eabfff]" />}
-              />
+
               <SkillCard
                 title="DevOps"
-                description="lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                description="I manage deployment, automation, and infrastructure to ensure applications run smoothly and reliably. My work includes setting up CI/CD pipelines, monitoring systems, handling cloud services, and automating repetitive tasks. I focus on optimizing performance, maintaining security, and enabling rapid, stable releases. This allows development teams to deliver features faster while keeping applications resilient, scalable, and maintainable across environments."
                 icon={<Rocket className="text-[#eabfff]" />}
+              />
+
+              <SkillCard
+                title="AI & ML"
+                description="I develop AI and machine learning models to analyze data, make predictions, and create intelligent applications. My work includes designing algorithms, training models, implementing data pipelines, and integrating AI solutions into products. I focus on building scalable, accurate, and efficient systems that solve real-world problems while exploring new approaches in natural language processing, computer vision, and predictive analytics. This allows products to learn, adapt, and deliver smarter experiences over time."
+                icon={<Robot className="text-[#eabfff]" />}
               />
             </div>
           </div>

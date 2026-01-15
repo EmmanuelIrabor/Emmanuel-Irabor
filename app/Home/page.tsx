@@ -151,13 +151,13 @@ export default function Home() {
 
         <div className="fixed bottom-0 left-0 w-full px-5 xl:px-20 py-10 bg-transparent flex justify-between items-center">
           <div className="flex gap-5">
-            <Link href="">
+            <Link href="https://github.com/EmmanuelIrabor" target="_blank">
               <GithubLogo />
             </Link>
-            <Link href="">
+            <Link href="mailto:emmanuel.o.irabor@gmail.com">
               <At />
             </Link>
-            <Link href="">
+            <Link href="https://wa.me/2349032785260" target="_blank">
               <WhatsappLogo />
             </Link>
           </div>

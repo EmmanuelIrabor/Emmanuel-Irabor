@@ -108,14 +108,18 @@ export default function About() {
           <div className="xl:pr-50">
             <h1 className="font-bold text-2xl">About Me</h1>
             <p className="pt-2 font-thin">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Dignissimos, maiores! Sunt velit voluptatibus atque assumenda
-              sequi corrupti accusamus perferendis laudantium vero, eveniet
-              repellat suscipit tempora tenetur odio, itaque, a consequatur.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab harum
-              temporibus inventore doloremque nam magnam maiores saepe soluta
-              modi itaque, corporis quisquam esse explicabo dicta dolore quidem
-              quo eveniet dolorum!
+              I’m a software developer with a strong foundation in computer
+              science and a deep interest in building systems that feel
+              intentional, usable, and well thought out. My work sits at the
+              intersection of design and engineering, where I focus on turning
+              abstract ideas into practical digital products that solve real
+              problems. I work across web and application development, with
+              experience in frontend architecture, backend systems, DevOps, and
+              emerging areas like AI-driven interfaces. I’ve built e-commerce
+              platforms, single-page applications, and experimental tools using
+              modern stacks such as Next.js, Laravel, Bootstrap, and JavaScript
+              frameworks, always aiming for clean structure, performance, and
+              long-term maintainability.
             </p>
           </div>
           <div>
@@ -144,14 +148,18 @@ export default function About() {
         <div className="xl:px-20 px-5 pt-10 flex flex-col xl:flex-row gap-10 justify-center items-center">
           <div className="xl:pr-50">
             <p className="pt-2 font-thin">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Dignissimos, maiores! Sunt velit voluptatibus atque assumenda
-              sequi corrupti accusamus perferendis laudantium vero, eveniet
-              repellat suscipit tempora tenetur odio, itaque, a consequatur.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab harum
-              temporibus inventore doloremque nam magnam maiores saepe soluta
-              modi itaque, corporis quisquam esse explicabo dicta dolore quidem
-              quo eveniet dolorum!
+              Beyond engineering, I’m deeply drawn to the creative and
+              philosophical side of building. I see software not just as code,
+              but as a medium for expression, systems thinking, and quiet
+              experimentation. Many of my ideas start abstract, sometimes
+              impractical on the surface, then slowly take shape as structured
+              products through exploration and iteration. I’m motivated by the
+              desire to create things that matter, tools that empower people,
+              reward goodwill, or challenge how we interact with technology. I’m
+              less interested in trends and more focused on originality,
+              long-term impact, and leaving behind work that reflects intention,
+              curiosity, and a belief that technology can add more good to the
+              world than noise.
             </p>
           </div>
           <div>
