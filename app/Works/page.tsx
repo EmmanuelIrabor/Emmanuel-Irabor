@@ -809,6 +809,14 @@ export default function Works() {
             </AccordionItem>
           </Accordion>
         </div>
+
+        <div className=" w-full px-5 xl:px-20 py-10 bg-transparent flex items-center justify-center xl:justify-end">
+          <div>
+            <Link className="btn-primary" href={"/Contact"}>
+              Contact
+            </Link>
+          </div>
+        </div>
       </motion.div>
 
       {/* PRELOADER */}

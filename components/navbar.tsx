@@ -32,7 +32,7 @@ export default function Navbar() {
           <Link href="/Works" className="navbar_item">
             Works
           </Link>
-          <Link href="/Home" className="navbar_item">
+          <Link href="/Contact" className="navbar_item">
             <div className="flex items-center gap-1">
               Contact <ArrowUpRight />
             </div>
