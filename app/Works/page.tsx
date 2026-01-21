@@ -465,7 +465,7 @@ export default function Works() {
                 </div>
               </AccordionContent>
             </AccordionItem>
-            <AccordionItem value="item-7">
+            {/* <AccordionItem value="item-7">
               <AccordionTrigger className="cursor-pointer technologies--gradient">
                 Fido Ride
               </AccordionTrigger>
@@ -517,7 +517,7 @@ export default function Works() {
                     Visit <LinkSimple />
                   </Link>
                 </div>
-              </AccordionContent>
+              </AccordionContent> */}
             </AccordionItem>
             <AccordionItem value="item-8">
               <AccordionTrigger className="cursor-pointer technologies--gradient">
