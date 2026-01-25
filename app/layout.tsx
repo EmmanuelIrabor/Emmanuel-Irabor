@@ -25,13 +25,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Developer Portfolio - Emmanuel Irabor",
     description: "My personal portfolio showcasing my skills and projects.",
-    images: ["/images/cube.gif"],
+    images: ["/images/Ball.gif"],
   },
   twitter: {
     card: "summary_large_image",
     title: "Developer Portfolio - Emmanuel Irabor",
     description: "My personal portfolio showcasing my skills and projects.",
-    images: ["/images/cube.gif"],
+    images: ["/images/Ball.gif"],
   },
 };
 
