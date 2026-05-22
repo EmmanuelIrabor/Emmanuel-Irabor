@@ -237,7 +237,7 @@ export default function Works() {
                 <div>
                   <Link
                     className="text-cyan flex items-center gap-1"
-                    href={"https://divinity-scarfs.vercel.app/"}
+                    href={"https://graceful-cuchufli-7d9436.netlify.app/"}
                   >
                     Visit <LinkSimple />
                   </Link>
@@ -465,7 +465,7 @@ export default function Works() {
                 </div>
               </AccordionContent>
             </AccordionItem>
-             {/* <AccordionItem value="item-7">
+             <AccordionItem value="item-7">
               <AccordionTrigger className="cursor-pointer technologies--gradient">
                 Fido Ride
               </AccordionTrigger>
@@ -518,7 +518,7 @@ export default function Works() {
                   </Link>
                 </div>
               </AccordionContent> 
-            </AccordionItem> */}
+            </AccordionItem>
             <AccordionItem value="item-8">
               <AccordionTrigger className="cursor-pointer technologies--gradient">
                 Deus Ui
