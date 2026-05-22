@@ -855,6 +855,63 @@ export default function Works() {
                 </div>
               </AccordionContent>
             </AccordionItem>
+
+                <AccordionItem value="item-14">
+              <AccordionTrigger className="cursor-pointer technologies--gradient">
+                BlueShift Creative
+              </AccordionTrigger>
+              <AccordionContent className="flex flex-col gap-4 text-balance">
+                <p>
+                   A Brand management agency dedicated to helping startups and growing businesses attract the right audience and convert that attention into measurable results
+                </p>
+                <div className="flex flex-col md:flex-row items-center gap-2">
+                  <Image
+                    src="/images/projects/bls_one.png"
+                    alt="pj"
+                    width={400}
+                    height={400}
+                    className="object-contain rounded-md"
+                    priority
+                  />
+                  <Image
+                    src="/images/projects/bls_two.png"
+                    alt="pjF"
+                    width={400}
+                    height={400}
+                    className="object-contain rounded-md"
+                    priority
+                  />
+                </div>
+                <div className="flex flex-col md:flex-row items-center gap-2">
+                  <Image
+                    src="/images/projects/bls_three.png"
+                    alt="pj"
+                    width={400}
+                    height={400}
+                    className="object-contain rounded-md"
+                    priority
+                  />
+                  <Image
+                    src="/images/projects/bls_four.png"
+                    alt="pjF"
+                    width={400}
+                    height={400}
+                    className="object-contain rounded-md"
+                    priority
+                  />
+                </div>
+                <div>
+                  <Link
+                    className="text-cyan flex items-center gap-1"
+                    href={
+                      "https://blueshift-creative.webflow.io/"
+                    }
+                  >
+                    Visit <LinkSimple />
+                  </Link>
+                </div>
+              </AccordionContent>
+            </AccordionItem>
           </Accordion>
         </div>
 
