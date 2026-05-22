@@ -230,7 +230,7 @@ export default function Skills() {
           <div className="technologies--gradient flex flex-col gap-2 w-full xl:w-[calc(33.333%-2rem)]">
             <h1 className="font-bold">UiUx & Styling</h1>
             <p className="font-light text-xs text-wrap">
-              Css , Scss , Stylex , Tailwind , Bootstrap, figma , Qt Designer ,
+              Css , Scss , Stylex , Tailwind , Bootstrap, figma , Webflow , Qt Designer ,
               GSAP , AOS , Lenis , Framer Motion , LightBox , Parallax, Barba.js
             </p>
           </div>
