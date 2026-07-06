@@ -121,8 +121,8 @@ export default function Home() {
           <div className="flex flex-col items-center justify-center text-center">
             <div className="relative">
               <Image
-                src="/images/cube.gif"
-                alt="Cube GIF"
+                src="/images/water_blob.gif"
+                alt="Blob"
                 width={360}
                 height={360}
                 className="object-contain"
