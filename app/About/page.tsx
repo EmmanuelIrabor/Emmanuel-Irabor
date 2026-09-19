@@ -164,14 +164,14 @@ export default function About() {
           </div>
           <div>
             {" "}
-            <Image
+            {/* <Image
               src="/images/mee.png"
               alt="Me"
               width={1000}
               height={1000}
               className="w-500 rounded-sm"
               priority
-            />
+            /> */}
           </div>
         </div>
 
