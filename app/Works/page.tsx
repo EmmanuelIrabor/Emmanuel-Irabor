@@ -912,6 +912,64 @@ export default function Works() {
                 </div>
               </AccordionContent>
             </AccordionItem>
+
+            <AccordionItem value="item-15">
+              <AccordionTrigger className="cursor-pointer technologies--gradient">
+                Voice Guard pay & Proxima system
+              </AccordionTrigger>
+              <AccordionContent className="flex flex-col gap-4 text-balance">
+                <p>
+                   A suite of plugins for fintech applications. Voice guard pay is a vocal protocol system that enables voice activated digital finacial  transactions. Proxima is a proximity based location system that enables peer to peer transactions with people in your proximity.
+                   This project was runner up in the 2026 Securepay Hackathon. 
+                </p>
+                <div className="flex flex-col md:flex-row items-center gap-2">
+                  <Image
+                    src="/images/projects/vgp_one.png"
+                    alt="vgp"
+                    width={400}
+                    height={400}
+                    className="object-contain rounded-md"
+                    priority
+                  />
+                  <Image
+                    src="/images/projects/vgp_two.png"
+                    alt="vgp"
+                    width={400}
+                    height={400}
+                    className="object-contain rounded-md"
+                    priority
+                  />
+                </div>
+                <div className="flex flex-col md:flex-row items-center gap-2">
+                  <Image
+                    src="/images/projects/vgp_three.png"
+                    alt="vgp"
+                    width={400}
+                    height={400}
+                    className="object-contain rounded-md"
+                    priority
+                  />
+                  <Image
+                    src="/images/projects/vgp_four.png"
+                    alt="vgp"
+                    width={400}
+                    height={400}
+                    className="object-contain rounded-md"
+                    priority
+                  />
+                </div>
+                <div>
+                  <Link
+                    className="text-cyan flex items-center gap-1"
+                    href={
+                      "https://voice-guard-pay.vercel.app/"
+                    }
+                  >
+                    Visit <LinkSimple />
+                  </Link>
+                </div>
+              </AccordionContent>
+            </AccordionItem>
           </Accordion>
         </div>
 
